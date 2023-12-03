@@ -9,7 +9,7 @@ It is _actually_ serverless, i.e. there is no backend.
 ## Development
 
 ```sh
-live-server --browser firefox
+npx live-server --browser firefox
 ```
 
 ## TODO
