@@ -15,7 +15,7 @@ npx live-server --browser firefox
 ## TODO
 
 - [x] Upload to GitHub Pages
-- [ ] Add upload image functionality
+- [x] Add upload image functionality
 - [ ] Add download with full resolution functionality
 - [ ] Make it look cool, matrix background etc
 - [ ] Add more colorschemes

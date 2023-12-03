@@ -1,5 +1,11 @@
-var img = new Image(60, 45);
-img.crossOrigin = 'anonymous';
+const input = document.getElementById("input")
+input.onchange = () => {
+  const file = input.files[0];
+  if (!file) {
+    return
+  }
+  img.src = URL.createObjectURL(file)
+}
 var img = document.getElementById("img")
 img.onload = drawImage
 
